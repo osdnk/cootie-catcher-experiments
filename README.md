@@ -2,7 +2,7 @@
 
 This Rust implementation of Cootie Catcher, a practical SNARK from Lattice-based assumptions.
 
-The codebase is an auxiliary material to the work _CootieCatcher – Linear-time Norm Check and R1CS Arguments from Lattices_ by Suto Kuriyama, Russell W. F. Lai and Michał Osadnik.
+The codebase is an auxiliary material to the work _CootieCatcher – Linear-time Norm Check and R1CS Arguments from Lattices_ by Shuto Kuriyama, Russell W. F. Lai and Michał Osadnik.
 
 **WARNING:** This implementation is an academic proof-of-concept prototype, has not received careful code review, and is not ready for production use.
 
