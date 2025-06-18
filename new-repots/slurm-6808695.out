@@ -1,0 +1,318 @@
+[2025-04-10 05:01:29] D_OLD
+[2025-04-10 05:01:29] hardware acc full
+[2025-04-10 05:01:29] PARAMS: NEW: false, MODULE: 7, WIT_DIM: 524288, REP: 12, Q: 4546383823830515713, PHI: 250, DECOMP_PARTS: [1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+[2025-04-10 05:01:30] OK sage
+[2025-04-10 05:01:30] Start CRS
+[2025-04-10 05:01:33] end CRS
+[2025-04-10 05:02:04] end sampling witness
+[2025-04-10 05:02:24] Time for parallel_dot_matrix_matrix (commitment): 19.29s
+[2025-04-10 05:02:29]   Time to transpose witness: 4.91s
+[2025-04-10 05:03:37]   Time to convolve rows: 67.96s
+[2025-04-10 05:03:37]   Time to get power_series_sub: 46.00ns
+[2025-04-10 05:03:37]   Time to compute new RHS: 51.00ns
+[2025-04-10 05:04:53] Time for norm_1: 149.08s
+[2025-04-10 05:04:54] Time for norm_challenge: 1.03s
+[2025-04-10 05:05:03] 524288
+[2025-04-10 05:05:46] Time for norm_2: 52.10s
+[2025-04-10 05:05:46] 7 36 3 36
+[2025-04-10 05:05:46] Time for verify_norm_2: 610.58µs
+[2025-04-10 05:06:00]  Splitting 524288
+[2025-04-10 05:06:09]  into 262144 0 262144
+[2025-04-10 05:07:30] Time for split: 103.61s
+[2025-04-10 05:07:30]   Time to extract left and right columns from RHS: 435.15µs
+[2025-04-10 05:07:30]   Time to compute the multiplier: 43.27µs
+[2025-04-10 05:07:30]   Time for row-wise tensor product: 1.47ms
+[2025-04-10 05:07:30]   Time verification: 411.90µs
+[2025-04-10 05:07:30] Time for split verifier: 2.41ms
+[2025-04-10 05:07:30] Time for challenge fold: 291.13µs
+[2025-04-10 05:08:07] Time for fold: 37.53s
+[2025-04-10 05:08:07] Time for fold verifier: 3.95ms
+[2025-04-10 05:08:22]   Time to decompose witness: 14.56s
+[2025-04-10 05:08:22]   Time to extract relevant columns from power series: 38.00ns
+[2025-04-10 05:08:40]   Time to compute RHS matrix: 17.91s
+[2025-04-10 05:08:40] Time for decomp: 32.50s
+[2025-04-10 05:08:40] Time for verify_decomp: 589.83µs
+[2025-04-10 05:08:45]   Time to transpose witness: 5.70s
+[2025-04-10 05:09:21]   Time to convolve rows: 35.91s
+[2025-04-10 05:09:21]   Time to get power_series_sub: 46.00ns
+[2025-04-10 05:09:21]   Time to compute new RHS: 57.00ns
+[2025-04-10 05:10:51] Time for norm_1: 131.04s
+[2025-04-10 05:10:52] Time for norm_challenge: 1.02s
+[2025-04-10 05:10:57] 262144
+[2025-04-10 05:11:37] Time for norm_2: 45.21s
+[2025-04-10 05:11:37] 10 72 3 72
+[2025-04-10 05:11:37] Time for verify_norm_2: 1.62ms
+[2025-04-10 05:11:47]  Splitting 262144
+[2025-04-10 05:11:54]  into 131072 0 131072
+[2025-04-10 05:13:19] Time for split: 102.04s
+[2025-04-10 05:13:19]   Time to extract left and right columns from RHS: 1.56ms
+[2025-04-10 05:13:19]   Time to compute the multiplier: 45.84µs
+[2025-04-10 05:13:19]   Time for row-wise tensor product: 2.28ms
+[2025-04-10 05:13:19]   Time verification: 1.38ms
+[2025-04-10 05:13:19] Time for split verifier: 5.32ms
+[2025-04-10 05:13:19] Time for challenge fold: 776.19µs
+[2025-04-10 05:13:56] Time for fold: 37.64s
+[2025-04-10 05:13:57] Time for fold verifier: 8.73ms
+[2025-04-10 05:14:03]   Time to decompose witness: 6.95s
+[2025-04-10 05:14:03]   Time to extract relevant columns from power series: 40.00ns
+[2025-04-10 05:14:14]   Time to compute RHS matrix: 10.71s
+[2025-04-10 05:14:14] Time for decomp: 17.67s
+[2025-04-10 05:14:14] Time for verify_decomp: 773.54µs
+[2025-04-10 05:14:16]   Time to transpose witness: 2.01s
+[2025-04-10 05:14:27]   Time to convolve rows: 10.83s
+[2025-04-10 05:14:27]   Time to get power_series_sub: 57.00ns
+[2025-04-10 05:14:27]   Time to compute new RHS: 62.00ns
+[2025-04-10 05:15:13] Time for norm_1: 58.57s
+[2025-04-10 05:15:14] Time for norm_challenge: 974.49ms
+[2025-04-10 05:15:16] 131072
+[2025-04-10 05:15:47] Time for norm_2: 33.21s
+[2025-04-10 05:15:47] 13 72 3 72
+[2025-04-10 05:15:47] Time for verify_norm_2: 1.78ms
+[2025-04-10 05:15:51]  Splitting 131072
+[2025-04-10 05:15:53]  into 65536 0 65536
+[2025-04-10 05:16:36] Time for split: 49.18s
+[2025-04-10 05:16:36]   Time to extract left and right columns from RHS: 906.10µs
+[2025-04-10 05:16:36]   Time to compute the multiplier: 59.61µs
+[2025-04-10 05:16:36]   Time for row-wise tensor product: 2.45ms
+[2025-04-10 05:16:36]   Time verification: 934.53µs
+[2025-04-10 05:16:36] Time for split verifier: 4.41ms
+[2025-04-10 05:16:36] Time for challenge fold: 758.80µs
+[2025-04-10 05:16:55] Time for fold: 19.30s
+[2025-04-10 05:16:55] Time for fold verifier: 9.77ms
+[2025-04-10 05:16:58]   Time to decompose witness: 2.75s
+[2025-04-10 05:16:58]   Time to extract relevant columns from power series: 38.00ns
+[2025-04-10 05:17:04]   Time to compute RHS matrix: 5.66s
+[2025-04-10 05:17:04] Time for decomp: 8.42s
+[2025-04-10 05:17:04] Time for verify_decomp: 933.71µs
+[2025-04-10 05:17:05]   Time to transpose witness: 1.08s
+[2025-04-10 05:17:09]   Time to convolve rows: 4.34s
+[2025-04-10 05:17:09]   Time to get power_series_sub: 45.00ns
+[2025-04-10 05:17:09]   Time to compute new RHS: 47.00ns
+[2025-04-10 05:17:30] Time for norm_1: 26.44s
+[2025-04-10 05:17:31] Time for norm_challenge: 964.80ms
+[2025-04-10 05:17:32] 65536
+[2025-04-10 05:17:57] Time for norm_2: 25.76s
+[2025-04-10 05:17:57] 16 72 3 72
+[2025-04-10 05:17:57] Time for verify_norm_2: 2.11ms
+[2025-04-10 05:17:58]  Splitting 65536
+[2025-04-10 05:17:59]  into 32768 0 32768
+[2025-04-10 05:18:23] Time for split: 26.39s
+[2025-04-10 05:18:23]   Time to extract left and right columns from RHS: 1.89ms
+[2025-04-10 05:18:23]   Time to compute the multiplier: 67.02µs
+[2025-04-10 05:18:23]   Time for row-wise tensor product: 4.10ms
+[2025-04-10 05:18:23]   Time verification: 2.23ms
+[2025-04-10 05:18:23] Time for split verifier: 8.36ms
+[2025-04-10 05:18:23] Time for challenge fold: 652.99µs
+[2025-04-10 05:18:33] Time for fold: 9.42s
+[2025-04-10 05:18:33] Time for fold verifier: 9.46ms
+[2025-04-10 05:18:34]   Time to decompose witness: 1.52s
+[2025-04-10 05:18:34]   Time to extract relevant columns from power series: 39.00ns
+[2025-04-10 05:18:37]   Time to compute RHS matrix: 2.94s
+[2025-04-10 05:18:37] Time for decomp: 4.47s
+[2025-04-10 05:18:37] Time for verify_decomp: 1.42ms
+[2025-04-10 05:18:38]   Time to transpose witness: 554.72ms
+[2025-04-10 05:18:40]   Time to convolve rows: 1.79s
+[2025-04-10 05:18:40]   Time to get power_series_sub: 76.00ns
+[2025-04-10 05:18:40]   Time to compute new RHS: 47.00ns
+[2025-04-10 05:18:50] Time for norm_1: 12.31s
+[2025-04-10 05:18:51] Time for norm_challenge: 1.03s
+[2025-04-10 05:18:51] 32768
+[2025-04-10 05:19:14] Time for norm_2: 23.34s
+[2025-04-10 05:19:14] 19 72 3 72
+[2025-04-10 05:19:14] Time for verify_norm_2: 1.63ms
+[2025-04-10 05:19:15]  Splitting 32768
+[2025-04-10 05:19:15]  into 16384 0 16384
+[2025-04-10 05:19:26] Time for split: 12.46s
+[2025-04-10 05:19:26]   Time to extract left and right columns from RHS: 1.06ms
+[2025-04-10 05:19:26]   Time to compute the multiplier: 80.52µs
+[2025-04-10 05:19:26]   Time for row-wise tensor product: 2.81ms
+[2025-04-10 05:19:26]   Time verification: 950.51µs
+[2025-04-10 05:19:26] Time for split verifier: 4.97ms
+[2025-04-10 05:19:26] Time for challenge fold: 578.12µs
+[2025-04-10 05:19:31] Time for fold: 4.67s
+[2025-04-10 05:19:31] Time for fold verifier: 11.22ms
+[2025-04-10 05:19:32]   Time to decompose witness: 528.30ms
+[2025-04-10 05:19:32]   Time to extract relevant columns from power series: 43.00ns
+[2025-04-10 05:19:33]   Time to compute RHS matrix: 1.60s
+[2025-04-10 05:19:33] Time for decomp: 2.13s
+[2025-04-10 05:19:33] Time for verify_decomp: 1.77ms
+[2025-04-10 05:19:33]   Time to transpose witness: 216.98ms
+[2025-04-10 05:19:34]   Time to convolve rows: 748.02ms
+[2025-04-10 05:19:34]   Time to get power_series_sub: 77.00ns
+[2025-04-10 05:19:34]   Time to compute new RHS: 48.00ns
+[2025-04-10 05:19:40] Time for norm_1: 6.26s
+[2025-04-10 05:19:40] Time for norm_challenge: 913.84ms
+[2025-04-10 05:19:41] 16384
+[2025-04-10 05:20:05] Time for norm_2: 24.07s
+[2025-04-10 05:20:05] 22 72 3 72
+[2025-04-10 05:20:05] Time for verify_norm_2: 2.69ms
+[2025-04-10 05:20:05]  Splitting 16384
+[2025-04-10 05:20:05]  into 8192 0 8192
+[2025-04-10 05:20:12] Time for split: 7.28s
+[2025-04-10 05:20:12]   Time to extract left and right columns from RHS: 1.65ms
+[2025-04-10 05:20:12]   Time to compute the multiplier: 109.45µs
+[2025-04-10 05:20:12]   Time for row-wise tensor product: 3.32ms
+[2025-04-10 05:20:12]   Time verification: 1.79ms
+[2025-04-10 05:20:12] Time for split verifier: 6.98ms
+[2025-04-10 05:20:12] Time for challenge fold: 659.69µs
+[2025-04-10 05:20:14] Time for fold: 2.35s
+[2025-04-10 05:20:14] Time for fold verifier: 9.03ms
+[2025-04-10 05:20:14]   Time to decompose witness: 194.48ms
+[2025-04-10 05:20:14]   Time to extract relevant columns from power series: 39.00ns
+[2025-04-10 05:20:15]   Time to compute RHS matrix: 915.45ms
+[2025-04-10 05:20:15] Time for decomp: 1.11s
+[2025-04-10 05:20:15] Time for verify_decomp: 1.54ms
+[2025-04-10 05:20:15]   Time to transpose witness: 54.91ms
+[2025-04-10 05:20:16]   Time to convolve rows: 344.79ms
+[2025-04-10 05:20:16]   Time to get power_series_sub: 45.00ns
+[2025-04-10 05:20:16]   Time to compute new RHS: 46.00ns
+[2025-04-10 05:20:18] Time for norm_1: 2.84s
+[2025-04-10 05:20:19] Time for norm_challenge: 999.67ms
+[2025-04-10 05:20:19] 8192
+[2025-04-10 05:20:39] Time for norm_2: 19.68s
+[2025-04-10 05:20:39] 25 72 3 72
+[2025-04-10 05:20:39] Time for verify_norm_2: 2.83ms
+[2025-04-10 05:20:39]  Splitting 8192
+[2025-04-10 05:20:39]  into 4096 0 4096
+[2025-04-10 05:20:43] Time for split: 4.25s
+[2025-04-10 05:20:43]   Time to extract left and right columns from RHS: 1.04ms
+[2025-04-10 05:20:43]   Time to compute the multiplier: 40.11µs
+[2025-04-10 05:20:43]   Time for row-wise tensor product: 2.76ms
+[2025-04-10 05:20:43]   Time verification: 1.00ms
+[2025-04-10 05:20:43] Time for split verifier: 4.92ms
+[2025-04-10 05:20:43] Time for challenge fold: 516.96µs
+[2025-04-10 05:20:44] Time for fold: 1.26s
+[2025-04-10 05:20:44] Time for fold verifier: 12.35ms
+[2025-04-10 05:20:44]   Time to decompose witness: 124.10ms
+[2025-04-10 05:20:44]   Time to extract relevant columns from power series: 45.00ns
+[2025-04-10 05:20:45]   Time to compute RHS matrix: 517.55ms
+[2025-04-10 05:20:45] Time for decomp: 642.24ms
+[2025-04-10 05:20:45] Time for verify_decomp: 1.73ms
+[2025-04-10 05:20:45]   Time to transpose witness: 24.07ms
+[2025-04-10 05:20:45]   Time to convolve rows: 167.01ms
+[2025-04-10 05:20:45]   Time to get power_series_sub: 49.00ns
+[2025-04-10 05:20:45]   Time to compute new RHS: 50.00ns
+[2025-04-10 05:20:46] Time for norm_1: 1.50s
+[2025-04-10 05:20:47] Time for norm_challenge: 903.71ms
+[2025-04-10 05:20:47] 4096
+[2025-04-10 05:21:02] Time for norm_2: 15.04s
+[2025-04-10 05:21:02] 28 72 3 72
+[2025-04-10 05:21:02] Time for verify_norm_2: 1.51ms
+[2025-04-10 05:21:02]  Splitting 4096
+[2025-04-10 05:21:03]  into 2048 0 2048
+[2025-04-10 05:21:05] Time for split: 2.34s
+[2025-04-10 05:21:05]   Time to extract left and right columns from RHS: 1.49ms
+[2025-04-10 05:21:05]   Time to compute the multiplier: 65.48µs
+[2025-04-10 05:21:05]   Time for row-wise tensor product: 2.93ms
+[2025-04-10 05:21:05]   Time verification: 1.75ms
+[2025-04-10 05:21:05] Time for split verifier: 6.35ms
+[2025-04-10 05:21:05] Time for challenge fold: 614.79µs
+[2025-04-10 05:21:05] Time for fold: 563.30ms
+[2025-04-10 05:21:05] Time for fold verifier: 11.72ms
+[2025-04-10 05:21:05]   Time to decompose witness: 71.40ms
+[2025-04-10 05:21:05]   Time to extract relevant columns from power series: 46.00ns
+[2025-04-10 05:21:06]   Time to compute RHS matrix: 281.51ms
+[2025-04-10 05:21:06] Time for decomp: 353.33ms
+[2025-04-10 05:21:06] Time for verify_decomp: 1.90ms
+[2025-04-10 05:21:06]   Time to transpose witness: 14.33ms
+[2025-04-10 05:21:06]   Time to convolve rows: 79.77ms
+[2025-04-10 05:21:06]   Time to get power_series_sub: 44.00ns
+[2025-04-10 05:21:06]   Time to compute new RHS: 55.00ns
+[2025-04-10 05:21:07] Time for norm_1: 866.60ms
+[2025-04-10 05:21:07] Time for norm_challenge: 926.20ms
+[2025-04-10 05:21:08] 2048
+[2025-04-10 05:21:22] Time for norm_2: 14.27s
+[2025-04-10 05:21:22] 31 72 3 72
+[2025-04-10 05:21:22] Time for verify_norm_2: 3.03ms
+[2025-04-10 05:21:22]  Splitting 2048
+[2025-04-10 05:21:22]  into 1024 0 1024
+[2025-04-10 05:21:23] Time for split: 1.05s
+[2025-04-10 05:21:23]   Time to extract left and right columns from RHS: 1.37ms
+[2025-04-10 05:21:23]   Time to compute the multiplier: 51.57µs
+[2025-04-10 05:21:23]   Time for row-wise tensor product: 2.95ms
+[2025-04-10 05:21:23]   Time verification: 1.50ms
+[2025-04-10 05:21:23] Time for split verifier: 5.97ms
+[2025-04-10 05:21:23] Time for challenge fold: 525.57µs
+[2025-04-10 05:21:23] Time for fold: 280.58ms
+[2025-04-10 05:21:23] Time for fold verifier: 11.94ms
+[2025-04-10 05:21:23]   Time to decompose witness: 32.77ms
+[2025-04-10 05:21:23]   Time to extract relevant columns from power series: 46.00ns
+[2025-04-10 05:21:23]   Time to compute RHS matrix: 152.18ms
+[2025-04-10 05:21:23] Time for decomp: 185.27ms
+[2025-04-10 05:21:23] Time for verify_decomp: 2.30ms
+[2025-04-10 05:21:23]   Time to transpose witness: 7.48ms
+[2025-04-10 05:21:23]   Time to convolve rows: 42.82ms
+[2025-04-10 05:21:23]   Time to get power_series_sub: 57.00ns
+[2025-04-10 05:21:23]   Time to compute new RHS: 59.00ns
+[2025-04-10 05:21:24] Time for norm_1: 435.89ms
+[2025-04-10 05:21:25] Time for norm_challenge: 977.88ms
+[2025-04-10 05:21:25] 1024
+[2025-04-10 05:21:36] Time for norm_2: 11.48s
+[2025-04-10 05:21:36] 34 72 3 72
+[2025-04-10 05:21:36] Time for verify_norm_2: 1.49ms
+[2025-04-10 05:21:36]  Splitting 1024
+[2025-04-10 05:21:36]  into 512 0 512
+[2025-04-10 05:21:37] Time for split: 537.66ms
+[2025-04-10 05:21:37]   Time to extract left and right columns from RHS: 1.29ms
+[2025-04-10 05:21:37]   Time to compute the multiplier: 36.29µs
+[2025-04-10 05:21:37]   Time for row-wise tensor product: 2.85ms
+[2025-04-10 05:21:37]   Time verification: 1.39ms
+[2025-04-10 05:21:37] Time for split verifier: 5.65ms
+[2025-04-10 05:21:37] Time for challenge fold: 476.88µs
+[2025-04-10 05:21:37] Time for fold: 146.75ms
+[2025-04-10 05:21:37] Time for fold verifier: 12.33ms
+[2025-04-10 05:21:37]   Time to decompose witness: 13.35ms
+[2025-04-10 05:21:37]   Time to extract relevant columns from power series: 46.00ns
+[2025-04-10 05:21:37]   Time to compute RHS matrix: 83.01ms
+[2025-04-10 05:21:37] Time for decomp: 96.54ms
+[2025-04-10 05:21:37] Time for verify_decomp: 2.60ms
+[2025-04-10 05:21:37]   Time to transpose witness: 2.44ms
+[2025-04-10 05:21:37]   Time to convolve rows: 24.14ms
+[2025-04-10 05:21:37]   Time to get power_series_sub: 45.00ns
+[2025-04-10 05:21:37]   Time to compute new RHS: 47.00ns
+[2025-04-10 05:21:37] Time for norm_1: 226.05ms
+[2025-04-10 05:21:38] Time for norm_challenge: 901.91ms
+[2025-04-10 05:21:38] 512
+[2025-04-10 05:21:48] Time for norm_2: 9.96s
+[2025-04-10 05:21:48] 37 72 3 72
+[2025-04-10 05:21:48] Time for verify_norm_2: 1.75ms
+[2025-04-10 05:21:48]  Splitting 512
+[2025-04-10 05:21:48]  into 256 0 256
+[2025-04-10 05:21:48] Time for split: 282.47ms
+[2025-04-10 05:21:48]   Time to extract left and right columns from RHS: 1.54ms
+[2025-04-10 05:21:48]   Time to compute the multiplier: 39.83µs
+[2025-04-10 05:21:48]   Time for row-wise tensor product: 2.96ms
+[2025-04-10 05:21:48]   Time verification: 1.47ms
+[2025-04-10 05:21:48] Time for split verifier: 6.11ms
+[2025-04-10 05:21:48] Time for challenge fold: 527.05µs
+[2025-04-10 05:21:48] Time for fold: 74.25ms
+[2025-04-10 05:21:48] Time for fold verifier: 14.19ms
+[2025-04-10 05:21:48]   Time to decompose witness: 6.85ms
+[2025-04-10 05:21:48]   Time to extract relevant columns from power series: 46.00ns
+[2025-04-10 05:21:48]   Time to compute RHS matrix: 43.63ms
+[2025-04-10 05:21:48] Time for decomp: 50.58ms
+[2025-04-10 05:21:49] Time for verify_decomp: 2.89ms
+[2025-04-10 05:21:49]   Time to transpose witness: 1.31ms
+[2025-04-10 05:21:49]   Time to convolve rows: 11.91ms
+[2025-04-10 05:21:49]   Time to get power_series_sub: 50.00ns
+[2025-04-10 05:21:49]   Time to compute new RHS: 54.00ns
+[2025-04-10 05:21:49] Time for norm_1: 118.02ms
+[2025-04-10 05:21:50] Time for norm_challenge: 938.09ms
+[2025-04-10 05:21:50] 256
+[2025-04-10 05:22:00] Time for norm_2: 10.76s
+[2025-04-10 05:22:00] 40 72 3 72
+[2025-04-10 05:22:00] Time for verify_norm_2: 3.83ms
+[2025-04-10 05:22:00]  Splitting 256
+[2025-04-10 05:22:00]  into 128 0 128
+[2025-04-10 05:22:00] Time for split: 163.46ms
+[2025-04-10 05:22:00]   Time to extract left and right columns from RHS: 2.47ms
+[2025-04-10 05:22:00]   Time to compute the multiplier: 45.30µs
+[2025-04-10 05:22:00]   Time for row-wise tensor product: 2.86ms
+[2025-04-10 05:22:00]   Time verification: 1.37ms
+[2025-04-10 05:22:00] Time for split verifier: 6.84ms
+[2025-04-10 05:22:00] Time for challenge fold: 508.90µs
+[2025-04-10 05:22:01] Time for fold: 36.95ms
+[2025-04-10 05:22:01] Time for fold verifier: 13.46ms
+[2025-04-10 05:22:01] Time for final assert_eq: 12.64ms
+[2025-04-10 05:22:01] PRV: 1184.33s
+[2025-04-10 05:22:01] VER: 11.77s

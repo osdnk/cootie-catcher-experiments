@@ -1,0 +1,23 @@
+[2025-04-11 20:44:36] F_OLD
+[2025-04-11 20:44:36] no hardware acc
+[2025-04-11 20:44:36] PARAMS: NEW: false, MODULE: 3, WIT_DIM: 262144, REP: 9, Q: 4546383823830515713, PHI: 1020, DECOMP_PARTS: [1, 3, 3, 3, 3, 3, 3, 2, 2, 2, 2, 2]
+[2025-04-11 20:44:37] OK sage
+[2025-04-11 20:44:37] Start CRS
+[2025-04-11 20:59:23] end CRS
+[2025-04-11 21:00:22] end sampling witness
+[2025-04-11 21:11:57] Time for parallel_dot_matrix_matrix (commitment): 694.65s
+[2025-04-11 21:12:03]   Time to transpose witness: 6.50s
+[2025-04-11 21:42:41]   Time to convolve rows: 1837.50s
+[2025-04-11 21:42:41]   Time to get power_series_sub: 38.00ns
+[2025-04-11 21:42:41]   Time to compute new RHS: 46.00ns
+[2025-04-11 22:07:46] Time for norm_1: 3349.72s
+[2025-04-11 22:07:48] Time for norm_challenge: 1.17s
+[2025-04-11 22:52:26] 262144
+[2025-04-11 23:38:47] Time for norm_2: 5459.70s
+[2025-04-11 23:38:47] 3 27 3 27
+[2025-04-11 23:38:47] Time for verify_norm_2: 32.39ms
+[2025-04-11 23:39:06]  Splitting 262144
+[2025-04-11 23:39:20]  into 131072 0 131072
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 6808711.0 ON gpu48 CANCELLED AT 2025-04-11T23:53:31 ***
+slurmstepd: error: *** JOB 6808711 ON gpu48 CANCELLED AT 2025-04-11T23:53:31 ***

@@ -1,0 +1,12 @@
+[2025-04-13 02:40:04] default
+[2025-04-13 02:40:04] hardware acc full
+[2025-04-13 02:40:04] PARAMS: NEW: false, MODULE: 3, WIT_DIM: 1048576, REP: 9, Q: 4546383823830515713, PHI: 1020, DECOMP_PARTS: [1, 3, 3, 3, 3, 3, 3, 3, 3, 2, 2, 2, 2]
+[2025-04-13 02:40:05] OK sage
+[2025-04-13 02:40:05] Start CRS
+[2025-04-13 02:40:34] end CRS
+[2025-04-13 02:43:49] end sampling witness
+[2025-04-13 02:45:12] Time for parallel_dot_matrix_matrix (commitment): 82.26s
+[2025-04-13 02:45:36]   Time to transpose witness: 23.97s
+slurmstepd: error: Detected 1 oom_kill event in StepId=6831976.0. Some of the step tasks have been OOM Killed.
+srun: error: gpu45: task 0: Out Of Memory
+srun: Terminating StepId=6831976.0

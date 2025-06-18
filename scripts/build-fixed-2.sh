@@ -1,0 +1,9 @@
+#!/bin/bash
+./scripts/c/build-n.sh
+./scripts/c/build-n-h.sh
+./scripts/c/build-o.sh
+./scripts/c/build-o-h.sh
+./scripts/d/build-n.sh
+./scripts/d/build-n-h.sh
+./scripts/d/build-o.sh
+./scripts/d/build-o-h.sh
