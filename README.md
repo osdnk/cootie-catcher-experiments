@@ -9,4 +9,4 @@ The codebase is an auxiliary material to the work _CootieCatcher – Linear-time
 
 ### License
 
-Papercraft is licensed under the Apache 2.0 License. See [LICENSE](https://github.com/osdnk/papercraft/blob/main/LICENSE).
+Papercraft is licensed under the Apache 2.0 License. See [LICENSE](https://github.com/osdnk/cootie-catcher-experiments/blob/main/LICENSE).
